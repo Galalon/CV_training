@@ -1,2 +1,2 @@
 # CV_training
-traning for CV team
+trianing for CV team

@@ -53,7 +53,7 @@ This is an introduction to Python basic commands, modules and concepts that are 
     - Sex
     - Age
     - Sibsp - number of siblings and/or spouse on board
-    - Parch - number of parents\children on board
+    - Parch - number of parents/children on board
     - Fare - ticket fare
     - Cabin - room number
     - Embarked - the port the passenger embarked from
@@ -66,7 +66,10 @@ This is an introduction to Python basic commands, modules and concepts that are 
 - For plotting graphs, read about matplotlib and seaborn and work with these modules.
 
 ### Final exam
- 
+- Read and do the final Exam "Azrieli and Sons".
+- This exercise emphesizes working in a "real-life" situation, i.e with a real-life costumer and data.
+- One of your team members will pose as mr./mrs. Azrieli, and should act as a costumer only. It is prefeble that you will talk with him as you would talk with usual costumers in your work enviroment (probably e-mail).
+- Aside from the notebook you will do you main work on, write a document that describes the problems you found in the data, the solutions for the problems and the reasoning behind them.
  
   
 

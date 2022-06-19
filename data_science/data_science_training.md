@@ -1,0 +1,29 @@
+# Data science
+
+- This sections teaches well known data science tools.
+
+### Statistics
+ - Read and answer basic questions about statistics according to your knowledge.
+ - The book is Openintro statistics book (in sources) 
+ - First - Hover over chapter 3 quickly.
+ - If the concepts do not seem familiar:
+    - Read chapter 2 – basic probability, conditional probability, random variables:
+    - Answer questions: 1,2,5,8,9,11,12,14,16,18,20,22,24,25,32,36,41
+    - Read chapter 3 – normal distribution:
+    - Answer questions: 1,3,5,7,9,11,14,16,17
+
+ 
+     
+  
+
+
+Chapter 4 – point estimate, confidence intervals, hypothesis testing, p value:
+
+Questions: 1,4,5,7,9,11,13,17,19,20,21,23,26,29,30,31,32
+
+If needs background:
+
+Bonus (only to deepen knowledge in statics, does not help in training):
+Chapter 6 – proportion, chi square distribution:
+
+Questions: 1,3,5,10,12,19,22,39,40,41,47,48,50

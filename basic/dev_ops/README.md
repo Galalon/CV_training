@@ -11,8 +11,9 @@ This is an introduction to the basic DevOps tools that are required for working 
     
  - **Docker**:
      - Read about these topics:
-        - container vs. image
+        - containers, images, and the difference between them
         - docker image
+     - Also, skim these topics:
         - docker vs nvidia-docker
         - docker run:
 	        1. -it

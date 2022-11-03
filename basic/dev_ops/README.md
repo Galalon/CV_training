@@ -1,7 +1,6 @@
 # DevOps training
 This is an introduction to the basic DevOps tools that are required for working in the development environment.
 
-####DevOps:
  - **Linux** - 
     - Read "linux_reading_material", and answer the questions in pages 10, 16, 18.
     - It is preferable that you will work in a linux environment (ask the team), but it is possible to work in an online terminal [here](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg).

@@ -7,7 +7,7 @@ This is an introduction to the basic DevOps tools that are required for working 
  
  - **Git** - 
     - Read about git [here](https://www.atlassian.com/git/tutorials), and do the exercises [here](https://learngitbranching.js.org/) - focus on commit,push,pull.
-    - it is recommended to open your repository on your work computer and clone this training
+    - it is recommended to open your repository on your work computer and clone this training to your own branch.
     
  - **Docker**:
      - Read about these topics:

@@ -24,15 +24,14 @@
          - Remove information which constitute anomalies (you can do it manually - this is not an anomaly detection exercise).
      - Split the data for training and testing
   
-  ***I NEED TO CHANGE LSTAT TO DIFFERENT VARIABLE DEPENDS ON NEW DATASET**** 
-  - Fit a linear regression model with medv as the response and lstat as the predictor. Do this in 3 ways:
+  - Fit a linear regression model with target as the response and medinc as the predictor. Do this in 3 ways:
      - Analytically.
      - Sequential Learning.
      - Sklearn's build in predictor.
-  - Plot the data along the fitted line. What does the model predict for lstat=10?
+  - Plot the data along the fitted line. What does the model predict for medinc=10?
    - From now use only sklearn predictor.
-   - Fit a linear regression model using lstat and a new feature that is equal to two times lstat. What happened?
-   - Fit a linear regression model using all features except age. Did your prediction become better?
-   - Using linear regression, compte a parabolic least-squares fit for the target variable using only lstat. Plot your result. Did this improve upon your fit from 1a?
+   - Fit a linear regression model using medinc and a new feature that is equal to two times medinc. What happened?
+   - Fit a linear regression model using all features except population. Did your prediction become better?
+   - Using linear regression, compute a parabolic least-squares fit for the target variable using only medinc. Plot your result. Did this improve upon your fit from the linear reggression?
    - Investigate what happens when plotting a polynomial regression of higher order with regularization. Use both L1 and L2 and plot the qualitive behaviour of the coefficients in each case. What combination would you choose for your final model?
    - Extract new features as you see fit to improve your model performance.  

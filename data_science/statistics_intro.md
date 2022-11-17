@@ -7,7 +7,6 @@
     - Answer questions: 1,2,5,8,9,11,12,14,16,18,20,22,24,25,32,36,41
     - Read chapter 3 – normal distribution:
     - Answer questions: 1,3,5,7,9,11,14,16,17
- - If you are familiar with the basic concepts:
     - Read chapter 4 – point estimate, confidence intervals, hypothesis testing, p value.
     - Answer questions: 1,4,5,7,9,11,13,17,19,20,21,23,26,29,30,31,32
   - If you want to deepen knowledge in statics (not relevant to the training):

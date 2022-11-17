@@ -11,4 +11,4 @@
     - For your convenience, the assignments are in the folder "Assignments" 
 
 ### Reading articles
- - In order to develop research skills, read and understand three classic papers, the instructions for this part is in research.md
+ - In order to develop research skills, read and understand three classic papers, the instructions for this part is in research.md``

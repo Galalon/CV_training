@@ -8,7 +8,7 @@
     - What is the geometrical meaning of the least square solution to linear regression?
     - Why does L1 regularization tend to make coefficients vanish exactly, while L2 doesn’t?
     - What is the bias-variance tradeoff?
-#### Exersice
+#### Exercise
  - In the community of the data-scientist there are several known datasets which comprise a benchmark for the community. The data on the neighborhood prices in California is one of them.
  fetch_california_housing
  - The reservoir contains not many records, on neighborhoods in Boston and the average housing prices. Each neighborhood has several information items that can help predict the average price in the neighborhood.

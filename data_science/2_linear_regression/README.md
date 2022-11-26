@@ -28,7 +28,7 @@
      - Analytically.
      - Sequential Learning.
      - Sklearn's build in predictor.
-  - Plot the data along the fitted line. What does the model predict for medinc=10?
+  - Plot the data along the fitted line. What does the model predict for medinc=3?
    - From now use only sklearn predictor.
    - Fit a linear regression model using medinc and a new feature that is equal to two times medinc. What happened?
    - Fit a linear regression model using all features except population. Did your prediction become better?

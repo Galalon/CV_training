@@ -31,7 +31,7 @@
   - Plot the data along the fitted line. What does the model predict for medinc=3?
    - From now use only sklearn predictor.
    - Fit a linear regression model using medinc and a new feature that is equal to two times medinc. What happened?
-      - Fit a linear regression model using all features.
+   - Fit a linear regression model using all features.
    - Fit a linear regression model using all features except population. Did your prediction become better?
    - Using linear regression, compute a parabolic least-squares fit for the target variable using only medinc. Plot your result. Did this improve upon your fit from the linear reggression?
    - Investigate what happens when plotting a polynomial regression of higher order with regularization. Use both L1 and L2 and plot the qualitive behaviour of the coefficients in each case. What combination would you choose for your final model?

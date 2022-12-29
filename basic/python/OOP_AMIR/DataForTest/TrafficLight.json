@@ -1,0 +1,48 @@
+{
+  "shapeName": "TrafficLight",
+  "shapes" : [
+    {
+      "shapeName": "Circle",
+      "points": [
+        {"x": 0, "y": -100}
+      ],
+      "color": {"R": 255, "G": 0, "B": 0},
+      "radius": 50,
+      "is_filled": "True",
+      "rotate_angle": 0
+    },
+    
+    {
+      "shapeName": "Circle",
+      "points": [
+        {"x": 0, "y": 0}
+      ],
+      "color": {"R": 255, "G": 255, "B": 0},
+      "radius": 50,
+      "is_filled": true,
+      "rotate_angle": 0
+    },
+
+    {
+      "shapeName": "Circle",
+      "points": [
+        {"x": 0, "y": 100}
+      ],
+      "color": {"R": 0, "G": 255, "B": 0},
+      "radius": 50,
+      "is_filled": true,
+      "rotate_angle": 0
+    },
+    
+    {
+      "shapeName": "Rectangle",
+      "points": [
+        {"x": 100, "y": -200}, {"x": -100, "y": 200}
+      ],
+      "color": {"R": 0, "G": 0, "B": 0},
+      "is_filled": false,
+      "rotate_angle": 0
+    }
+    
+    ]
+}

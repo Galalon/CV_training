@@ -1,0 +1,37 @@
+{
+  "shapeName": "Street",
+  "shapes" : [
+    {
+      "shapeJsonPath": "../DataForTest/House.json",
+      "translationX": -550,
+      "translationY": 50,
+      "rotate_angle": 270,
+      "resize": 1
+    },
+    
+    {
+      "shapeJsonPath": "../DataForTest/House.json",
+      "translationX": 0,
+      "translationY": 0,
+      "rotate_angle": 0,
+      "resize": 1
+    },
+
+    {
+      "shapeJsonPath": "../DataForTest/House.json",
+      "translationX": 400,
+      "translationY": 0,
+      "rotate_angle": 0,
+      "resize": 1
+    },
+
+    {
+      "shapeJsonPath": "../DataForTest/House.json",
+      "translationX": 800,
+      "translationY": 0,
+      "rotate_angle": 0,
+      "resize": 1
+    }
+    
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "shapeName": "City",
+  "shapes" : [
+    {
+      "shapeJsonPath": "../DataForTest/Street.json",
+      "translationX": -50,
+      "translationY": -630,
+      "rotate_angle": 15,
+      "resize": 1.2
+    },
+    
+    {
+      "shapeJsonPath": "../DataForTest/Street.json",
+      "translationX": -50,
+      "translationY": -170,
+      "rotate_angle": 0,
+      "resize": 1
+    },
+
+    {
+      "shapeJsonPath": "../DataForTest/Street.json",
+      "translationX": -50,
+      "translationY": 290,
+      "rotate_angle": 0,
+      "resize": 1
+    },
+
+    {
+      "shapeJsonPath": "../DataForTest/Street.json",
+      "translationX": -50,
+      "translationY": 750,
+      "rotate_angle": 345,
+      "resize": 1
+    }
+    
+    ]
+}

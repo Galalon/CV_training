@@ -11,6 +11,7 @@
  - Do the exercise in the attached notebook - it is taken from C231 exercises which you will do in the later parts of the trainning.
  - You can read the Knn extension in the preamble in the [following link](https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/)
   (be careful not to read  the answers).
+ - Additional files and functions for the notebook can be found [here](https://cs231n.github.io/assignments2022/assignment1/#q1-k-nearest-neighbor-classifier)
  - Read Read 151-154 in ISLR and compare different classification methods.  
 
 ##### Classification methods:

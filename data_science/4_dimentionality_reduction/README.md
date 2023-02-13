@@ -13,7 +13,9 @@
  - Only numpy,cv2 libraries are allowed. Matplotlib only to visualize results.
  - use np.linalg – to calculate distances, eigenvalues and eigenvectors.
  - Do the following:
-    - Present 5 most dominant eigenfaces spreading the data (“ghost images”)
+    - Present the average face.
+    - Present 5 most dominant eigenfaces spreading the data (“ghost images”).
+    - Decompose an image\images using PCA and reconstrucut the faces using a small number of eigen faces (2,5,10,50,100...), what is the difference between the different  reconstructions, why is that?
     - Define metric between two images (use your own), It should have a defined rule for success or failure.
     - Use it to detect What is the minimum number of eigenfaces needed to reach 60% precision on the given 10 test image pairs? Choose your metric wisely.
 

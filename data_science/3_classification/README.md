@@ -25,3 +25,4 @@
     - Explore the data and show your findings.
     - Test different models (use sklearn) and compare them.
     - Show your best model and draw conclusions.
+    - If you find the dataset too easy to classify, you are welcome to challenge yourself with more advanced datasets, for example the wine dataset (sklearn.datasets.load_wine)

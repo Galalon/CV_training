@@ -1,15 +1,15 @@
-###SVM
+### SVM
 
 #### Theory
  - Read about SVM from ISLR pages 337-359
  - Answer questions 3,6 in exercise section (pages 368,370)
- ### Exercise
+#### Exercise
   - **Part 1**
     - In this exercise we assume the hypothesis we want to learn is classification by y=1-x:
       Class = 1 if y>1-x, otherwise 0
     - Create a train dataset by generating 1000 labeled points
     - Create a test dataset by generating 1000 unlabeled points
-    - Classify each point using svm with different kernels, try at least 3 kernels
+    - Classify each point using svm with different kernels, try at least 3 kernels (use native sklearn for the svm)
     - For each kernel create a plot with these features:
         - Correctly classified points in blue
         - Incorrectly classified points in red

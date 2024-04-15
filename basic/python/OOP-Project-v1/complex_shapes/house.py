@@ -5,29 +5,6 @@ from shapes.point import Point
 from shapes.circle import Circle
 from colors import *
 
-
-# class House(ComplexShape):
-
-#     def __init__(self, house_body: Rectangle, roof_height: float, roof_color:str = "red", roof_fill_color:str = "red", door_color:str = "brown", door_fill_color:str = "brown"):
-#         self.house_body = house_body
-#         self.roof_height = roof_height
-
-#         house_body_top_left = house_body.get_up_left_point()
-#         house_body_top_right = house_body.get_up_right_point()
-#         roof_top_point = Point((house_body_top_left.x + house_body_top_right.x)/2, house_body_top_left.y + roof_height)
-#         self.roof = Triangle(house_body_top_left, house_body_top_right, roof_top_point , house_body.color, house_body.fill_color)
-
-#         # door low left point is the halfway between the low left and low right points of the house body
-#         door_low_left_point = Point((house_body.get_low_left_point().x + house_body.get_low_right_point().x)/2, house_body.get_low_left_point().y)
-#         door_width = house_body.width/4
-#         door_height = house_body.height/2
-
-#         self.door = RectangleFactory.create_rectangle_from_low_left_point(door_low_left_point, door_width, door_height, door_color, door_fill_color)
-#         self.shapes = [self.house_body, self.roof, self.door]
-
-
-
-
 class House(ComplexShape):
 
     def __init__(self, low_left_point: Point):
@@ -81,10 +58,6 @@ class House(ComplexShape):
         center = Point(x_window, y_window )
         self.window = Circle(center, radius, window_color, window_fill_color)
         self._add_shape(self.window)
-
-    def rotate(self, angle: float):
-        center_point = self.house_body.get_center_point()
-        self.rotate_by_center(center_point, angle)
 
     def get_center_point(self):
         return self.house_body.get_center_point()

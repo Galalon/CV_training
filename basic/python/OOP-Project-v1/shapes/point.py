@@ -59,6 +59,22 @@ class Point:
     def __add__(self, other):
         return Point(self.x + other[0], self.y + other[1])
     
+    def __mul__(self, other):
+        if type(other) is Point:
+            return Point(self.x * other.x, self.y * other.y)
+        elif type(other) is int or type(other) is float:
+            return Point(self.x * other, self.y * other)
+        else:
+            raise TypeError("Unsupported type for multiplication")
+        
+    def __sub__(self, other):
+        if type(other) is Point:
+            return Point(self.x - other.x, self.y - other.y)
+        elif type(other) is int or type(other) is float:
+            return Point(self.x - other, self.y - other)
+        else:
+            raise TypeError("Unsupported type for subtraction")
+    
     def __str__(self) -> str:
         return f"({self.x}, {self.y})"
     

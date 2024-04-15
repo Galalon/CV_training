@@ -1,0 +1,14 @@
+House:
+- Shape: Rectangle
+- Width: 10 meters
+- Height: 8 meters
+
+Door:
+- Shape: Rectangle
+- Width: 1.5 meters
+- Height: 2.5 meters
+
+Roof:
+- Shape: Triangle
+- Base: 10 meters
+- Height: 5 meters

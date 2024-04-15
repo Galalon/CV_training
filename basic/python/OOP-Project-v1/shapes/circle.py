@@ -16,6 +16,7 @@ class Circle(SimpleShape):
         cv.circle(img, center_point, self.radius, self.color, BORDER_THICKNESS)
 
     def scale(self, factor: float):
-        self.radius *= factor
+        self.radius = int(self.radius*factor)
+        
 
     

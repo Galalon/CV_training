@@ -11,7 +11,7 @@ class SimpleShape(Shape):
     def __init__(self,points: list[Point], color:RGB = BLACK ,fill_color:RGB = WHITE):
         self.color = color
         self.fill_color = fill_color
-        self.points = points
+        self.points: np.ndarray[Point] = np.array(points)
 
     # THIS VIOLATES THE LSP (Liskov Substitution Principle) because classes use this without overriding it
     def draw(self, img:plt.figure):

@@ -47,6 +47,9 @@ class Point:
         self.x += x
         self.y += y
 
+    def get_copy(self):
+        return Point(self.x, self.y)
+
 
     def __getitem__(self, index):
         if index == 0:

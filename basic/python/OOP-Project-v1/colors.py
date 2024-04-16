@@ -13,4 +13,16 @@ YELLOW = (0, 255, 255)
 
 BROWN = (42,42, 165)
 
+color_mapping = {
+    "black": BLACK,
+    "white": WHITE,
+    "red": RED,
+    "green": GREEN,
+    "blue": BLUE,
+    "cyan": CYAN,
+    "magenta": MAGENTA,
+    "yellow": YELLOW,
+    "brown": BROWN
+}
+
 BORDER_THICKNESS = 3

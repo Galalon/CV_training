@@ -1,0 +1,30 @@
+{
+    "simple shapes": {
+        "r1": {
+            "type": "rectangle",
+            "center": { "x": 200, "y": 200 },
+            "width": 100,
+            "height": 100,
+            "actions": { "rotate": { "angle": 20 } }
+
+        },
+        "r2": {
+            "type": "rectangle",
+            "center": { "x": 200, "y": 200 },
+            "width": 100,
+            "height": 100,
+            "actions": { "rotate": { "angle": 20 }, "translate": { "x": 250, "y": 200 } }
+        }
+    },
+    "composite shapes": {
+        "composite1": {
+            "shapes": ["r1", "r2"]
+        },
+        "composite2": {
+            "shapes": ["composite1"],
+            "actions": { "translate": { "x": 0, "y": 200 } }
+        },
+        "composite3": { "saved shape": "house" }
+    },
+    "draw": ["composite1", ]
+}

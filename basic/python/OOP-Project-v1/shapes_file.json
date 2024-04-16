@@ -1,0 +1,72 @@
+{
+    "simple shapes": {
+        "body": {
+            "type": "rectangle",
+            "center": { "x": 200, "y": 200 },
+            "width": 100,
+            "height": 100,
+            "color": "green",
+            "fill color": "white"
+
+        },
+        "roof": {
+            "type": "triangle",
+            "point1": { "x": 150, "y": 150 },
+            "point2": { "x": 250, "y": 150 },
+            "point3": { "x": 200, "y": 100 },
+            "color": "green",
+            "fill color": "red"
+        },
+        "door": {
+            "type": "rectangle",
+            "center": { "x": 213, "y": 225 },
+            "width": 25,
+            "height": 50,
+            "color": "brown",
+            "fill color": "brown"
+        }
+    },
+    "composite shapes": {
+        "house": {
+            "shapes": ["body", "roof", "door"]
+        },
+        "house1": {
+            "shapes": ["house"],
+            "actions": { "translate": { "x": 150, "y": 0 } }
+        },
+        "house2": {
+            "shapes": ["house1"],
+            "actions": { "translate": { "x": 150, "y": 0 } }
+        },
+        "rotated house": {
+            "shapes": ["house"],
+            "actions": { "rotate": { "angle": 45 } }
+        },
+
+        "neighborhood1": {
+            "shapes": ["house", "house1", "house2"]
+        },
+        "neighborhood2": {
+            "shapes": ["neighborhood1"],
+            "actions": { "translate": { "x": 0, "y": 200 } }
+        },
+        "neighborhood3": {
+            "shapes": ["neighborhood2"],
+            "actions": { "translate": { "x": 0, "y": 200 }, "rotate": { "angle": 30 } }
+        },
+        "weird neighborhood": {
+            "shapes": ["house1", "house2", "rotated house"],
+            "actions": {
+                "translate": { "x": 0, "y": 600 }
+            }
+        },
+        "city": {
+            "shapes": ["neighborhood1", "neighborhood2", "neighborhood3", "weird neighborhood"],
+            "actions": {
+                "rotate": { "angle": 180 }
+            }
+        }
+
+    },
+    "draw": ["city"]
+}

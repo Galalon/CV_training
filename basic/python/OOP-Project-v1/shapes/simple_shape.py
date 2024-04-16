@@ -8,8 +8,8 @@ from shapes.shape import Shape
 
 class SimpleShape(Shape):
 
-    def __init__(self,points: list[Point], color:RGB = BLACK ,fill_color:RGB = WHITE):
-        self.color = color
+    def __init__(self,points: list[Point], color:RGB = WHITE ,fill_color:RGB = WHITE):
+        self.color = color if color else WHITE
         self.fill_color = fill_color
         self.points: np.ndarray[Point] = np.array(points)
 
@@ -45,4 +45,6 @@ class SimpleShape(Shape):
     def get_points(self,):
         return self.points
         
+    def get_copy(self):
+        return SimpleShape([point.get_copy() for point in self.points], self.color, self.fill_color)
 

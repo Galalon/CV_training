@@ -37,6 +37,10 @@ class ComplexShape(Shape):
     def rotate(self, angle: float):
         self.rotate_by_center(self.get_center_point(), angle)
     
+    def get_copy(self):
+        return ComplexShape([shape.get_copy() for shape in self._shapes])
+    
+    
     def get_center_point(self):
         bbox = self._get_bounding_box()
         xs = [point[0] for point in bbox]

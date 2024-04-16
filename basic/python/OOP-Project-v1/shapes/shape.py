@@ -27,5 +27,8 @@ class Shape:
     
     def get_points(self,):
         raise NotImplementedError("Subclass must implement abstract method")
+    
+    def get_copy(self):
+        raise NotImplementedError("Subclass must implement abstract method")
         
 

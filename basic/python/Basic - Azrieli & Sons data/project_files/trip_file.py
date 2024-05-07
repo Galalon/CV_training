@@ -6,7 +6,7 @@ class TripFile():
 
     def __init__(self, trip_file_path):
         self.trip_file_path = trip_file_path
-        self.trip_df = pd.read_csv(trip_file_path)
+        self.trip_df = pd.read_csv(trip_file_path, index_col=0)
         self.file_name = os.path.basename(trip_file_path)
         self.month = self.file_name.split(' ')[0]
         self.year = self.file_name.split(' ')[1].split('_')[0]

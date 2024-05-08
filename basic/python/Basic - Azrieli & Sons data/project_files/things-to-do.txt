@@ -3,6 +3,8 @@
 - calculate the average time for kilometer of a single trip in order to calculate weekend and night bonus
 - calculate the average time for kilometer of a driver to add the appropriate hour to it
 - Make birthdates up? for the age in the final report
+- looks like night and weekend function doesnt work yet - it looks like it is working now actually
+- need to add the calculation for night and weekend and put it in the price (also take the difference of the weekend or night time without the night and weekend time)
 
 
 

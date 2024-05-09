@@ -1,13 +1,14 @@
 - match companies names in trips data to their name in taarif file
-- finish times for night and weekend
-- calculate the average time for kilometer of a single trip in order to calculate weekend and night bonus
-- calculate the average time for kilometer of a driver to add the appropriate hour to it
+- finish times for night and weekend -[V]
+- calculate the average time for kilometer of a single trip in order to calculate weekend and night bonus -[V]
+- calculate the average time for kilometer of a driver to add the appropriate hour to it -[V]
 - Make birthdates up? for the age in the final report
-- looks like night and weekend function doesnt work yet - it looks like it is working now actually
-- need to add the calculation for night and weekend and put it in the price (also take the difference of the weekend or night time without the night and weekend time)
+- looks like night and weekend function doesnt work yet - it looks like it is working now actually -[V]
+- need to add the calculation for night and weekend and put it in the price -[V]
 
 
 
 WITH Mr.AZRIELI
 
-- check if it is ok to make up fares and bonuses in taarif -> Check if can remove electricity and bituah leumi if they are not a lot in the data
+- check if it is ok to make up fares and bonuses in taarif -> Check if can remove electricity and bituah leumi if they are not a lot in the data -> no
+- present him with the drives that are more then 30 hours - [V]

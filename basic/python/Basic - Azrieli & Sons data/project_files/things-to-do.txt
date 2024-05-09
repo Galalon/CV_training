@@ -6,9 +6,13 @@
 - looks like night and weekend function doesnt work yet - it looks like it is working now actually -[V]
 - need to add the calculation for night and weekend and put it in the price -[V]
 
+- Check if I want to use the solution of changing the distribution of kph or time or something.....
+
 
 
 WITH Mr.AZRIELI
 
 - check if it is ok to make up fares and bonuses in taarif -> Check if can remove electricity and bituah leumi if they are not a lot in the data -> no
 - present him with the drives that are more then 30 hours - [V]
+- Check about the non reasonable drive times and km distribuation
+

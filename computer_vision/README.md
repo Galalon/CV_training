@@ -16,7 +16,15 @@
     - The course lectures are on youtube - unfortunately not in a single playlist so no link
     - The course syllabus with links to the problem sets [link](https://docs.google.com/spreadsheets/d/1ecUGIyhYOfQPi3HPXb-7NndrLgpX_zgkwsqzfqHPaus/pubhtml)
     - In the folder "course_resources" - All the required inputs for the exercises
+ - Some of the methods that are learnt in the course is a bit old fashioned. After every chapter you need to search for a modern deep ways 	of the things you learn about in the chapter (e.g. if you learn about sift, search for deep sift or something in this direction).
+	Things to cover:
+		- Look for compartion between the methods.
+		- On which dataset did they evaluate their model? Is this relevant to our data in our projects?
+		- Is it the latest work done on this task? Which one is the latest?
+		- Citations and acceptness to top tier conferenec (CVPR, ECCV, etc.)
+		- More questions that can arise from this deep methods that related to that topic.
  - After the course, do the questions in "additional_cv_exercises", use openCV functions
+	
 
 ### Final Exercise
  - Do an exercise that tests your computer vision skills. 

@@ -16,10 +16,9 @@
         - Separating line 
      - What is the difference in total train and test time between different kernels?
      - Choose the most suitable kernel in your opinion (of course - justify it) and use it in the following parts.
-    - **Part 2** 
-         - Extend the hypothesis for higher dimension while keeping the training and test sets balanced. Classify each point according to your chosen kernel. How are the training and test times depend upon the dimension? (what is the relation)
-         - Denote the number of train samples N, and the dimension P. Test samples number is fixed. For every region N<<P, N=P, N>>P show the test error. Plot all results one informative graph.
-     - **Part 3** - 
-        - Repeat the exercise 1 with hypothesis boundary of a circle located at (0.5,0.5) with radius of size 0.25. No need to plot separating line.
-        - Try this using linear kernel and using polynomial kernel of deg 2.
-
+  - **Part 2** 
+    - Extend the hypothesis for higher dimension while keeping the training and test sets balanced. Classify each point according to your chosen kernel. How are the training and test times depend upon the dimension? (what is the relation)
+    - Denote the number of train samples N, and the dimension P. Test samples number is fixed. For every region N<<P, N=P, N>>P show the test error. Plot all results one informative graph.
+  - **Part 3**
+    - Repeat the exercise 1 with hypothesis boundary of a circle located at (0.5,0.5) with radius of size 0.25. No need to plot separating line.
+    - Try this using linear kernel and using polynomial kernel of deg 2.

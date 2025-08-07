@@ -4,6 +4,7 @@
 
 ### Course
  - In order to learn this subject comprehensively this section is based on udacity's introduction to computer vision [online course](https://www.udacity.com/course/introduction-to-computer-vision--ud810)
+ - Udacity is currently paid only (assholes) so you can find the exact same course on [youtube](https://www.youtube.com/playlist?list=PLQgNi_PlCHx3tO8XUz8x86r1aMER0bbu3)
  - Do the following units and problem sets:
     - Unit 1 and problem set 0
     - Unit 2  and problem set 1
